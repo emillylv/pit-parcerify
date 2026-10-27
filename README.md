@@ -46,7 +46,7 @@ Investigar e propor o desenvolvimento de um marketplace digital que facilite a c
 - Chat entre empresa e criador
 - Confirmação explícita da parceria pelo criador
 
-A priorização completa (MoSCoW) está no Product Backlog: _[link do Trello]_
+A priorização completa (MoSCoW) está no Product Backlog: https://trello.com/invite/b/6ae0b85dfae04cb686858cf2/ATTIadd7a98353778c4db7c6b55af6e4aa8bA8D60ABF/pit-parcerify
 
 ## Tecnologias previstas
 
@@ -63,7 +63,7 @@ A priorização completa (MoSCoW) está no Product Backlog: _[link do Trello]_
 | Versionamento | Git e GitHub |
 | Design e gestão | Figma e Trello |
 
-**Arquitetura:** cliente-servidor em três camadas, com API própria: aplicativo Flutter (apresentação), API REST em FastAPI (serviços: regras de negócio, matching, recomendação e notificações) e PostgreSQL gerenciado pelo Supabase (dados). O aplicativo envia toda regra de negócio à API e usa o Supabase diretamente apenas para login, envio de fotos e recebimento do chat. O banco fica na região São Paulo; a API, na região US East, pois o Railway não possui região na América do Sul. O diagrama está em [`docs/`](docs/).
+**Arquitetura:** cliente-servidor em três camadas, com API própria: aplicativo Flutter (apresentação), API REST em FastAPI (serviços: regras de negócio, matching, recomendação e notificações) e PostgreSQL gerenciado pelo Supabase (dados). O aplicativo envia toda regra de negócio à API e usa o Supabase diretamente apenas para login, envio de fotos e recebimento do chat. O banco fica na região São Paulo; a API, na região US East, pois o Railway não possui região na América do Sul.
 
 ## Estrutura do repositório
 
@@ -95,8 +95,4 @@ Faculdade Cotemig · Projeto de Inovação Tecnológica I · Belo Horizonte, 202
 - [Requisitos e análise de concorrentes](docs/)
 - [Personas e histórias de usuário](docs/)
 - [Arquitetura e protótipo](docs/)
-- Product Backlog: _[link do Trello]_
-
-## Licença
-
-_Definir com o orientador (ex.: MIT, ou "todos os direitos reservados" enquanto o projeto for acadêmico)._
+- Product Backlog: https://trello.com/invite/b/6ae0b85dfae04cb686858cf2/ATTIadd7a98353778c4db7c6b55af6e4aa8bA8D60ABF/pit-parcerify
